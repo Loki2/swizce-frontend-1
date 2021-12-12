@@ -1,0 +1,301 @@
+@import './varables';
+
+.profile__page{
+  // overflow: hidden;
+  width: 100%;
+  margin: 0;
+  // position: fixed;
+  display: block;
+}
+.user__media__info {
+  width: 76%;
+  margin-left: 229px;
+  box-shadow: 0px 1px 1px rgb(184, 185, 185);
+  border-radius: 7px;
+}
+
+
+.user__cover img {
+  width: 100%;
+  height: 315px;
+  object-fit: cover;
+}
+
+.user__cover img:hover {
+  padding: 1px;
+  background: var(--primary);
+}
+
+.user__profile {
+  position: relative;
+  top: -50px;
+  left: 120px;
+}
+
+.user__profile img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+}
+
+.user__profile img:hover {
+  padding: 1px;
+  background: var(--primary);
+}
+
+.user__name {
+  position: relative;
+  top: -45px;
+
+  margin-left: 330px;
+  border-radius: 7px;
+}
+
+.user__name h2 {
+  color: var(--primary);
+  font-size: 18px;
+  padding: 3px;
+}
+
+
+.user__name__fullname {
+    position: relative;
+    top: -45px;
+    margin-left: 310px;
+    border-radius: 7px;
+}
+
+.user__name__fullname h2 {
+  color: var(--primary);
+  font-size: 18px;
+  padding: 3px;
+}
+
+
+
+.user__name .user__name__auth {
+  color: #ffffff;
+  font-size: 18px;
+  padding: 3px;
+  // margin-left: 15px;
+}
+
+.navigation__tabs {
+  margin: 2px 230px 2px 230px;
+  background: var(--white);
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px var(--darkgrey);
+}
+
+.navigation__tabs h1 {
+  margin-left: 675px;
+}
+
+.user__activity__list {
+  width: 317px;
+  margin-left: 2px;
+  border-radius: 5px;
+  // overflow: hidden;
+  position: sticky;
+}
+
+.user__activity__item {
+  background: var(--white);
+  margin: 7px 0 0 2px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px var(--darkgrey);
+}
+
+
+.user__activity__list h2 {
+  font-size: 16px;
+  padding: 5px;
+  font-weight: 300;
+  color: var(--primary);
+  background: var(--white);
+  border-radius: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0px 2px 5px var(--darkgrey);
+}
+
+.user__activity__item li {
+  padding: 10px 9px 5px 12px;
+}
+
+
+.user__activity__item a {
+  margin: 0 10px 0 10px;
+  font-size: 16px;
+  color: rgb(95, 97, 97);
+  font-weight: 200;
+  i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: rgb(4, 175, 187);
+  }
+}
+
+
+.user__scream__post {
+  display: flex;
+  flex-direction: row;
+  margin-left:228px;
+  position: relative;
+}
+
+.user__scream__list {
+  overflow: hidden;
+  display: block;
+  position: relative;
+  border-radius: 5px;
+  margin: 2px 14px 0 20px;
+}
+
+.user__scream__item {
+  background: var(--white);
+  margin: 0px 12px 0px 0;
+}
+
+.user__profile__scream__media img {
+  width: 765px;
+  height: 815px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.user__more__actions {
+  width: 317px;
+}
+
+
+
+.user__base__information__item {
+  background: var(--white);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0px 2px 5px var(--darkgrey);
+}
+
+.user__base__information__item li {
+  padding: 0px 0px 20px 0px;
+}
+
+.user__base__information__item a {
+  font-size: 16px;
+  color: rgb(95, 97, 97);
+  font-weight: 200;
+  i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: rgb(4, 175, 187);
+  }
+}
+
+.user__subscriber__action__item {
+  background: var(--white);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  box-shadow: 0px 2px 5px var(--darkgrey);
+}
+
+.user__subscriber__action__item li {
+  padding: 0px 0px 15px 0px;
+}
+
+.user__subscriber__action__item a {
+  font-size: 16px;
+  color: rgb(95, 97, 97);
+  font-weight: 200;
+  i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: rgb(4, 175, 187);
+  }
+}
+
+.user__friends__list__item {
+  background: var(--white);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  box-shadow: 0px 2px 5px var(--darkgrey);
+}
+
+.user__friends__list__item li {
+  padding: 0px 0px 20px 0px;
+}
+
+.user__friends__list__item a {
+  font-size: 16px;
+  color: rgb(95, 97, 97);
+  font-weight: 200;
+  i {
+    margin-right: 10px;
+    font-size: 18px;
+    color: rgb(4, 175, 187);
+  }
+}
+
+
+//my scream component style
+.user__scream__item {
+  overflow: hidden;
+  display: block;
+  position: relative;
+  background: var(--white);
+  box-shadow: 0px 2px 5px var(--darkgrey);
+  margin-bottom: 10px;
+  padding: 0 0 85px 0;
+  border-radius: 5px;
+}
+
+
+.user__scream__item .side__icons {
+  position: absolute;
+  right: 5px;
+  top: 75%;
+  color: white;
+  transform: translate(80%, -50%);
+  display: flex;
+  flex-direction: column;
+  padding: 0px 3px -1px 6px;
+  transition: all 500ms ease-in-out;
+}
+
+.user__scream__item .side__icons span {
+  font-size: 0.5rem;
+  margin: .3rem;
+  padding: 6px 8px 0px 14px;
+  border-radius: 50%;
+  transition: all 300ms ease-in-out;
+}
+
+.user__profile__scream__content {
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  padding: 1px 5px 1px 5px;
+  transition: all 500ms ease-in-out;
+  color: var(--primary);
+}
+
+.user__profile__scream__content p {
+  font-weight: 200;
+  padding: 3px;
+}
+
+.user__profile__play__scream {
+  position: absolute;
+  right: 9px;
+  bottom: 0.9rem;
+  background-color: white;
+  border-radius: 50%;
+  padding: 6px 5px 4px 10px;
+  box-shadow: 0 0.5rem 1.5rem rgb(0 0 0 / 20%);
+  transform: all 300ms ease-in-out;
+  color: var(--primary);
+}

@@ -1,0 +1,107 @@
+NEXT_PUBLIC_BACKEND_URI='http://localhost:4000/graphql'
+NEXT_PUBLIC_TOKEN_NAME='token'
+
+
+
+<div className="navigation">
+        <div className="logo">
+          <a href="/">
+              <img src="https://res.cloudinary.com/swizce/image/upload/v1620702365/Swizce/icons/swizce_aez2ms.png" height="34px" />
+          </a>
+        </div>
+            {
+              loggedInUser && (
+                <>
+                <div className="wrapper">
+                  <div className="avatar">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <img src="https://res.cloudinary.com/swizce/image/upload/v1620702239/Swizce/images/avatar1_c05cmb.png" className="btn" />
+                        </a>
+                      </li>                      
+                    </ul>
+                  </div>
+                </div>
+                <div className="search__engine">
+                  <input
+                    type="search"
+                    name="search"
+                    id="search"
+                    placeholder="Found Somethings..."
+                    />
+                </div>
+                </>
+              )}
+              <div className="nav-action">
+                {
+                  loggedInUser ? 
+                  <a style={{ cursor: 'pointer'}}>
+                    <img onClick={handleSignout}
+                          src="https://res.cloudinary.com/swizce/image/upload/v1622518178/Swizce/images/log-out_aqu0w7.png"
+                          width="32px"
+                          height="32px"
+                    />
+                  </a>
+                  :
+                  <a onClick={() => handleAuthAction('signin')} style={{ cursor: 'pointer'}}>
+                    <img
+                          src="https://res.cloudinary.com/swizce/image/upload/v1620702241/Swizce/images/login_qgoycx.png"
+                          width="32px"
+                          height="32px"
+                        />
+                  </a>
+                }
+                </div>
+                {
+                  loggedInUser && isAdmin(loggedInUser) && (
+                    <div className="navigation">
+                      <div className="logo">
+                        <a href="/">
+                            <img src="https://res.cloudinary.com/swizce/image/upload/v1620702365/Swizce/icons/swizce_aez2ms.png" height="34px" />
+                        </a>
+                      </div>
+                      <div className="nav-action">
+                      <a href="/admin">Admin</a>
+                      </div>
+
+                      <div className="nav-action">
+                        <a style={{ cursor: 'pointer'}}>
+                          <img
+                            onClick={handleSignout}
+                            src="https://res.cloudinary.com/swizce/image/upload/v1622518178/Swizce/images/log-out_aqu0w7.png"
+                            width="32px"
+                            height="32px"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  )}
+            </div>
+
+
+
+files.map(fileWrapper => (
+  <UploadItems key={fileWrapper.file.lastModified} file={fileWrapper.file}/>
+))
+
+Link Access aws IAM:
+https://084997949835.signin.aws.amazon.com/console
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+profile components********************
+
+
+

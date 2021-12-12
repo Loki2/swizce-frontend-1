@@ -1,0 +1,109 @@
+@import '_varables';
+
+.signup__container {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  // align-items: center;
+  // padding: 0px;
+  margin: 2.5rem 0;
+}
+
+//from Reset Password form
+.reset__container {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  // align-items: center;
+  // padding: 0px;
+  margin: 2.5rem 0;
+}
+
+.__header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+
+  h2 {
+    margin: 0;
+    color: var(--primary);
+  }
+
+  span {
+    color: tomato;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+}
+
+.form__signup {
+  width: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+
+}
+
+.form__control {
+  width: 100%;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+
+  input {
+    width: 100%;
+    height: 2.3rem;
+    border: 0.5px solid var(--primary);
+    border-radius: 15px;
+    margin: 0.4rem 0;
+    padding: 4px 4px 4px 15px;
+    font-size: .9rem;
+    outline: none;
+    color: var(--primary);
+    box-shadow: 2px 2px 4px lightgray;
+  }
+
+  button {
+    width: 100%;
+    margin: 0px;
+    padding: 5px 0px 0px 0;
+    background: var(--primary);
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 30px;
+    margin-top: 55px;
+  }
+}
+
+.p__forget {
+  width: 100%;
+  margin: auto;
+  margin-top: 25px;
+
+  p {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    margin-left: 15px;
+    margin-top: -15px;
+    height: 22px;
+    overflow: hidden;
+    color: darkgray;
+    font-size: 12px;
+
+    span {
+      color: tomato;
+      cursor: pointer;
+    }
+  }
+}

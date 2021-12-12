@@ -1,0 +1,341 @@
+@import '_varables.scss';
+
+.service__page {
+  width: 100%;
+  margin: 0;
+  display: block;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.service__main {
+  margin: 0 200px 0 230px;
+  display: flex;
+}
+
+.service__header {
+  margin: 65px 451px 5px 450px;
+  background: var(--white);
+  border-radius: 5px;
+}
+
+// Start Left components Styling
+.service__category__list {
+  display: block;
+  position: fixed;
+}
+
+.service__category__list h1 {
+  font-size: 18px;
+  color: var(--primary);
+  margin-bottom: 7px;
+  font-weight: 400;
+  background: var(--white);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.__add__service {
+    margin-bottom: 12px;
+}
+
+.__add__service a {
+  font-size: 16px;
+  color: var(--orange);
+  font-weight: 200;
+  i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: var(--orange);
+  }
+}
+
+.__add__service a:hover {
+  font-size: 16px;
+  color: var(--primary);
+  font-weight: 400;
+}
+
+.service__category__item {
+  background: var(--white);
+  padding: 11px;
+  border-radius: 5px;
+  margin-top: 7px;
+}
+
+.service__category__item li {
+  padding: 0px 0px 18px 0px;
+}
+
+.service__category__item a {
+  font-size: 14px;
+  color: var(--grey);
+  font-weight: 300;
+  i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: var(--primary);
+  }
+}
+
+.service__category__item a:hover {
+  font-size: 14px;
+  color: var(--primary);
+  font-weight: 300;
+}
+
+.copy__right__component {
+  margin-top: 115px;
+  margin-left: 15px;
+}
+
+.copy__right__component h5 {
+  font-size: 10px;
+  color: rgb(136, 133, 133);
+  font-weight: 200;
+}
+
+.my__current__location h3 {
+  font-size: 10px;
+  color: rgb(136, 133, 133);
+  font-weight: 200;
+}
+
+.copy__right__component p {
+  font-size: 12px;
+  font-weight: 300;
+}
+// End Left components Styling
+
+// Start Styling Service container
+.service__container {
+  display: block;
+  margin: 0 10px 0 220px;
+  border-radius: 3px;
+}
+
+.service__container li {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.service__item {
+  display: block;
+  border: 1px var(--primary);
+  background: var(--white);
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px var(--darkgrey);
+}
+
+.service__item img {
+  width: 975px;
+  height: 375px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+
+.service__content {
+  position: relative;
+  padding: 5px;
+}
+
+.service__content .__body h2 {
+  font-size: 16px;
+  padding: 5px;
+  font-weight: 300;
+  color: var(--primary);
+}
+
+.service__content .__body span {
+  font-size: 14px;
+  padding: 5px;
+  font-weight: 200;
+  color: var(--orange);
+}
+
+.service__content .__body h3 {
+  font-size: 12px;
+  padding: 5px;
+  font-weight: 200;
+  color: var(--dark);
+}
+
+.service__content .__footer {
+  margin-bottom: 10px;
+}
+
+.service__content .__footer a {
+  font-size: 16px;
+  margin: 5px;
+  padding: 2px 10px 3px 10px;
+  font-weight: 300;
+  color: var(--white);
+  background: var(--primary);
+  border-radius: 30px;
+}
+
+.service__content .__footer a:hover {
+  font-size: 16px;
+  margin: 5px;
+  padding: 2px 10px 3px 10px;
+  font-weight: 400;
+  color: var(--primary);
+  background: var(--white);
+  border-radius: 30px;
+}
+
+// End Service container Styling
+
+// Start Right components Styling
+.service__right__tabs {
+  position: fixed;
+  right: 225px;
+}
+
+.service__right__tabs h1 {
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--primary);
+  background: #fff;
+  border-radius: 5px;
+  margin: 0 5px 0 5px;
+}
+
+.service__sponsors__container {
+  margin-top: 10px;
+}
+
+.service__sponsors__container li {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 5px var(--darkgrey);
+}
+
+.service__sponsors__container img {
+  width: 220px;
+  height: auto;  
+}
+// End Right components Styling
+
+
+
+//Create Service Page component
+.create__service__body {
+  display: block;
+}
+
+.__service__cover__upload button {
+  border: none;
+  border-radius: 10px;
+}
+
+.__service__cover__upload img {
+  width: 875px; 
+  height: 250px;
+  object-fit: cover;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.create__service__contents {
+  display: flex;
+}
+
+.__service__profile__upload button {
+  border: none;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.__service__profile__upload img {
+  width: 85px; 
+  height: 85px;
+  object-fit: cover;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.__service__content__fileds {
+  width: 100%;
+  padding: 10px;
+  display: block;
+}
+
+.__service__content__fileds__basic {
+  display: flex;
+}
+
+// .service__form__control {
+//   display: flex;
+// }
+
+.service__form__control h5 {
+  font-size: 14px;
+  font-weight: 200;
+  color: var(--primary);
+}
+
+.__service__content__fileds input {
+  width: 95%;
+  border: 1px solid;
+  outline: 0;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  font-weight: 300;
+  color: var(--primary);
+  font-family: -apple-system, BlinkMacSystemFont, 
+      'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,'Noto Sans Lao', 
+      'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.__service__content__fileds textarea::-webkit-scrollbar {
+  width: 5px;
+}
+
+.__service__content__fileds textarea::-webkit-scrollbar-track {
+  box-shadow:inset 0 0 7px #BDDAE0;
+}
+
+.__service__content__fileds textarea::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+}
+
+.__service__content__fileds textarea {
+  width: 95%;
+  border: 1px solid;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-bottom: 3px; 
+  font-weight: 300;
+  outline: none;
+  resize: none;
+  font-weight: 200;
+  color: teal;
+  color: var(--primary);
+  font-family: -apple-system, BlinkMacSystemFont, 
+      'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,'Noto Sans Lao', 
+      'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.create__bottom__acctions {
+  margin: 0px 0px 15px 0px;
+}
+
+.create__bottom__acctions button {
+  width: 84%;
+  padding: 7px 0 5px 0;
+  margin-left: 94px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 400;
+  border-radius: 5px;
+}

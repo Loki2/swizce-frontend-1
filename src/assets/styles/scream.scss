@@ -1,0 +1,392 @@
+@import '_varables.scss';
+//Create Scream style in globally scss
+
+
+.scream__page {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.scream__left {
+  position: fixed;
+  left: 230px;
+  margin-top: 57px;
+}
+
+.lives__steam__now {
+  width: 310px;
+  height: 32vh;
+  background: var(--white);
+  margin: 2px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 2px 5px var(--darkgrey);
+  padding: 3px;
+  margin-bottom: 15px;
+}
+
+.lives__steam__now h2 {
+  font-size: 16px;
+  margin-bottom:  5px;
+  padding: 5px;
+  font-weight: 300;
+  color: var(--primary);
+}
+
+.scream__live__items {
+  display: flex;
+}
+
+.scream__live__items img {
+  width: 305px;
+  height: 120px;
+  object-fit: cover;
+  padding: 3px;
+  background: var(--white);
+  border-radius: 5px;
+}
+
+.scream__live__items img:hover {
+  width: 305px;
+  height: 120px;
+  object-fit: cover;
+  padding: 3px;
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+.scream__contents_body {
+  width: 310px;
+  height: 37vh;
+  background: var(--white);
+  margin: 2px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 2px 5px var(--darkgrey);
+  padding: 3px;
+  margin-bottom: 15px;
+}
+
+.scream__contents_body h2 {
+  font-size: 16px;
+  margin-bottom:  5px;
+  padding: 5px;
+  font-weight: 300;
+  color: var(--primary);
+}
+
+.follower__channel__item {
+  display: flex;
+  align-items: center;
+}
+
+.follower__channel__item img {
+  width: 85px;
+  height: auto;
+  margin-bottom: 7px;
+  padding: 2px;
+  background: var(--white);
+  border-radius: 5px;
+}
+
+.follower__channel__item img:hover {
+  width: 85px;
+  height: auto;
+  padding: 2px;
+  margin-bottom: 7px;
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+.follower__channel__item h4 {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--primary);
+  margin-right: 5px;
+}
+
+.follower__channel__item p {
+  font-size: 12px;
+  font-weight: 200;
+  color: var(--orange);
+}
+
+//Scream Main components
+.scream__main {
+  padding: 3.5rem 0 0.3rem 0;
+  flex: 1;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.scream {
+  overflow: hidden;
+  display: block;
+  position: relative;
+  background: var(--white);
+  box-shadow: 0px 2px 5px var(--darkgrey);
+  margin-bottom: 10px;
+  padding: 0 0 85px 0;
+  border-radius: 5px;
+}
+
+.scream__user__profile {
+  top: 10px;
+  position: absolute;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.scream__user__profile img {
+  width: 65px;
+  height: 65px;
+  padding: 2px;
+  object-fit: cover;
+  background: var(--white);
+  border-radius: 50%;
+}
+
+.scream__user__profile img:hover {
+  width: 65px;
+  height: 65px;
+  padding: 2px;
+  object-fit: cover;
+  background: var(--primary);
+  border-radius: 50%;
+}
+
+
+.scream__container {
+  cursor: pointer;
+  border-radius: 10px;
+  // padding: 5px;
+}
+
+.scream__container h2 {
+  margin-bottom: 15px;
+}
+
+.scream__media img {
+  width: 765px;
+  height: 825px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+.scream__user__info {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  background: var(--darkgrey);
+  border-radius: 7px;
+  padding: 5px;
+  bottom: 97px;
+  left: 10px;
+}
+
+.scream__user__info h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--primary);
+  margin-right: 10px;
+}
+
+.scream__user__info h4 {
+  font-size: 12px;
+  color: var(--primary);
+  margin-top: 1px;
+  border-radius: 15px;
+  font-weight: 200;
+}
+
+.scream__content {
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  padding: 1px 5px 1px 5px;
+  transition: all 500ms ease-in-out;
+  color: var(--primary);
+}
+
+.scream:hover .scream__content {
+  transition: all 500ms ease-in-out;
+}
+
+.scream__content p {
+  font-weight: 200;
+  padding: 3px;
+}
+
+.play__scream {
+  position: absolute;
+  right: 9px;
+  bottom: 0.9rem;
+  background-color: white;
+  border-radius: 50%;
+  padding: 6px 5px 4px 10px;
+  box-shadow: 0 0.5rem 1.5rem rgb(0 0 0 / 20%);
+  transform: all 300ms ease-in-out;
+  color: var(--primary);
+}
+
+.scream:hover .play__scream {
+  border-radius: 1rem 0 1rem 0;
+}
+
+.scream:hover .play__scream:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+.scream i {
+  transition: all 300ms ease;
+  font-size: 2.1rem;
+}
+
+.side__icons {
+  position: absolute;
+  right: 5px;
+  top: 75%;
+  color: white;
+  transform: translate(80%, -50%);
+  display: flex;
+  flex-direction: column;
+  padding: 0px 3px -1px 6px;
+  transition: all 500ms ease-in-out;
+}
+
+.scream .side__icons span {
+  font-size: 0.5rem;
+  margin: .3rem;
+  padding: 6px 8px 0px 14px;
+  border-radius: 50%;
+  transition: all 300ms ease-in-out;
+}
+
+.scream__container i {
+  transition: all 300ms ease;
+  font-size: 1.7rem;
+}
+
+
+.scream .side__icons span:hover {
+  color: var(--primary);
+}
+
+.scream:hover .side__icons {
+  transform: translate(0%, -50%);
+}
+
+
+
+//Scream right
+.scream__right {
+  position: fixed;
+  right: 230px;
+  margin-top: 60px;
+}
+
+.scream__markets__shares {
+  width: 310px;
+  background: var(--white);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  box-shadow: 0px 2px 5px var(--darkgrey);
+  overflow: hidden;
+}
+
+.scream__markets__shares h2 {
+  font-size: 16px;
+  margin-bottom:  5px;
+  padding: 5px;
+  font-weight: 300;
+  color: var(--primary);
+}
+
+.scream__market__place {
+  display: flex;
+  align-items: center;
+}
+
+.scream__product__item img {
+  width: 100px;
+  height: 120px;
+  margin: 2px;
+  padding: 2px;
+  background: var(--white);
+}
+
+.scream__product__item img:hover {
+  width: 100px;
+  height: 120px;
+  margin: 2px;
+  padding: 2px;
+  background: var(--primary);
+}
+
+.scream__product__action p {
+  font-size: 10px;
+  color: var(--primary);
+  padding: 3px;
+  margin-left: 20px;
+}
+
+.scream__shope__activity {
+  width: 310px;
+  background: var(--white);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  box-shadow: 0px 2px 5px var(--darkgrey);
+  overflow: hidden;
+  height: 35vh;
+}
+
+.scream__shope__activity h2 {
+  font-size: 16px;
+  margin-bottom:  5px;
+  padding: 5px;
+  font-weight: 300;
+  color: var(--primary);
+}
+
+.scream__shope__item {
+  display: flex;
+  align-items: center;
+}
+
+.scream__shope__item img {
+  width: 80px;
+  height: auto;
+  padding: 2px;
+  margin: 3px 5px 0 5px;
+  background: var(--white);
+  border-radius: 10px;
+}
+
+.scream__shope__item img:hover {
+  width: 80px;
+  height: auto;
+  padding: 2px;
+  margin: 3px 5px 0 5px;
+  background: var(--primary);
+  border-radius: 10px;
+}
+
+.scream__shope__action p {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--primary);
+}
+
+.scream__shope__action a {
+  font-size: 10px;
+  color: var(--orange);
+  margin-left: 7px;
+  font-weight: 200;
+}

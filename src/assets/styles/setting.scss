@@ -1,0 +1,94 @@
+@import './varables';
+
+.setting__page {
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+}
+
+.setting__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 240px 0 236px;
+}
+
+.setting__main__left {
+  width: 310px;
+  margin-top: 60px;
+}
+
+.setting__menu__container h4{
+  font-size: 16px;
+  font-weight: 400;
+  padding: 13px 5px 3px 0;
+  color: var(--primary);
+}
+
+
+.setting__main {
+  width: 770px;
+  height: 93vh;
+  margin: 60px 15px 0 15px;
+  background: var(--darkgrey);
+  border-radius: 7px;
+}
+
+.setting__container h4 {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 13px 5px 3px 7px;
+  color: var(--primary);
+}
+
+.setting__main__right {
+  width: 310px;
+  margin-top: 60px;
+}
+
+.setting__right__container h4 {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 13px 5px 3px 0;
+  color: var(--primary);
+}
+
+
+
+
+
+
+
+.setting__menu__item {
+  background: var(--white);
+  padding: 11px;
+  border-radius: 5px;
+  margin-top: 7px;
+}
+
+.setting__menu__item li {
+  padding: 0px 0px 15px 0px;
+}
+
+.setting__menu__item a {
+  font-size: 14px;
+  color: var(--darkgrey);
+  font-weight: 300;
+  i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: var(--primary);
+  }
+}
+
+.setting__menu__item a:hover {
+  font-size: 14px;
+  color: var(--primary);
+  font-weight: 400;
+}
+
+
+.setting__menu__item:hover {
+  overflow: hidden;
+  cursor: pointer;
+}
