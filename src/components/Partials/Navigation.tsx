@@ -73,7 +73,82 @@ const Navigation: React.FC<NavigationProps> = ({ user }) => {
           <ul>
             <li>
               <a href="">
-                <img src="https://res.cloudinary.com/swizce/image/upload/v1620702241/Swizce/images/profile3_tl2cfr.png" className="btn" />
+                <img src="https://assets.vogue.com/photos/60eef8c728198051b1f04558/1:1/w_1475,h_1475,c_limit/tgd3260_101_comp_v007_35250b79%20(2).jpeg"  className="btn" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="https://i.redd.it/mh7s3m7igys21.jpg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="https://img.freepik.com/free-vector/ship-captain-wheel-isolated-white-background_7496-1004.jpg?size=338&ext=jpg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="https://dazedimg-dazedgroup.netdna-ssl.com/640/azure/dazed-prod/1300/5/1305418.jpg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="https://res.cloudinary.com/swizce/image/upload/v1620702350/Swizce/icons/test_roevfj.jpg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="https://i.insider.com/5ab40aa2a5ac361d008b4780?width=700" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="https://m.media-amazon.com/images/I/61Bx7HZwXGL._AC_SL1300_.jpg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="https://bbts1.azureedge.net/images/p/full/2020/07/0f7de760-48a5-4b66-8fbe-307c83f5d2d0.jpg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="https://image.api.playstation.com/vulcan/img/rnd/202010/2122/PjNOSo7CmIhP71f3MAF7SJPc.png?w=440" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="https://dazedimg-dazedgroup.netdna-ssl.com/640/azure/dazed-prod/1300/5/1305418.jpg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="https://res.cloudinary.com/swizce/image/upload/v1620702350/Swizce/icons/test_roevfj.jpg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="https://i.insider.com/5ab40aa2a5ac361d008b4780?width=700" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="https://m.media-amazon.com/images/I/61Bx7HZwXGL._AC_SL1300_.jpg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="https://i.redd.it/mh7s3m7igys21.jpg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="https://img.freepik.com/free-vector/ship-captain-wheel-isolated-white-background_7496-1004.jpg?size=338&ext=jpg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="https://dazedimg-dazedgroup.netdna-ssl.com/640/azure/dazed-prod/1300/5/1305418.jpg" alt="" />
               </a>
             </li>
           </ul>

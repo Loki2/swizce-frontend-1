@@ -40,18 +40,30 @@
 }
 
 .navigation__friends__list {
-  width: 775px;
+  // width: 775px;
   background: honeydew;
   border-radius: 10px;
 }
 
-.navigation__friends__list ul {
-  margin-top: 3px;
+
+.navigation__friends__list ul li {
+  display: inline-block;
+  margin-right: 7px;
 }
 
+
 .navigation__friends__list img {
-  width: 48px;
-  height: 48px;
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+  border-radius: 50%;
+  padding: 1px;
+  margin-top: 1px;
+}
+
+.navigation__friends__list img:hover {
+  padding: 3px;
+  background: var(--white);
 }
 
 .navigation__search__engine {

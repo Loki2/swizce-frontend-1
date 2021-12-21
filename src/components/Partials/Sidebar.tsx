@@ -49,7 +49,7 @@ const Sidebar: React.FC<Props> = () => {
           <br />
           <br />
           <a href="/Messagers">
-            <img
+            <img width="60px"
               src="https://res.cloudinary.com/swizce/image/upload/v1620702241/Swizce/images/notification4_ov6pw3.png"
               className="btn icons"
             />

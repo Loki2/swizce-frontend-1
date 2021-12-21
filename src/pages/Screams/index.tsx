@@ -188,7 +188,7 @@ const ScreamPage: React.FC<Props> = () => {
             </div>
           </div>
           <div className="scream__shope__activity">
-            <h2>More Shops!</h2>
+            <h2>Trending Shops Today!</h2>
             <div className="scream__shope__list">
               <ul>
                   <li>
