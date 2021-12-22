@@ -15,7 +15,7 @@ const Setting: React.FC<Props> = () => {
                 <li>
                   <a href="#">
                     <i className="ti-book" />
-                    General
+                    General Information
                   </a>
                 </li>
                 <li>
@@ -70,7 +70,7 @@ const Setting: React.FC<Props> = () => {
                 <li>
                   <a href="#">
                     <i className="ti-lock" />
-                    Privacy
+                    Privacy Policy
                   </a>
                 </li> 
                 <hr /><br />

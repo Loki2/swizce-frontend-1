@@ -3,7 +3,6 @@ import { AuthContext } from "../../context/AuthContext";
 import { useQuery } from "@apollo/client";
 import { useRouter } from "next/router";
 import { QUERY_SCREAMS } from "../../graphql/Scream";
-
 import Screams from "../../components/Scream/Screams";
 // import { Scream } from "../../types";
 import Rightbar from "../../components/Partials/Rightbar";
@@ -23,9 +22,8 @@ const ScreamPage: React.FC<Props> = () => {
 
   const { data, loading, error } = useQuery(QUERY_SCREAMS, {
     fetchPolicy: "network-only",
-  }); //<{ screams: Scream[], user: User }>
+  }); 
 
-  // console.log("scream data:", data);
 
 
   
@@ -53,7 +51,7 @@ const ScreamPage: React.FC<Props> = () => {
         <section className="scream__left">
           <div className="scream__stream__contents">
             <div className="lives__steam__now">
-              <h2>Streaming Now!</h2>
+              <h2  onClick={() => console.log('open live streaming Channel list') }  style={{ cursor: "pointer" }}>Streaming Now!</h2>
               <ul>
                 <li>
                   <a>
@@ -72,7 +70,7 @@ const ScreamPage: React.FC<Props> = () => {
               </ul>
             </div>
             <div className="scream__contents_body">
-              <h2>Following Chanels</h2>
+              <h2  onClick={() => console.log('open Following Channel list') }  style={{ cursor: "pointer" }}>Following Chanels</h2>
               <div className="user__follower__channels">
                 <ul>
                   <li>
@@ -144,7 +142,7 @@ const ScreamPage: React.FC<Props> = () => {
 
         <section className="scream__right">
           <div className="scream__markets__shares">
-            <h2>Market Places</h2>
+            <h2 onClick={() => console.log('Market Place list item product') }  style={{ cursor: "pointer" }}>Market Places</h2>
             <hr />
             <div className="scream__market__place">
               <div className="scream__product__item">
@@ -188,7 +186,7 @@ const ScreamPage: React.FC<Props> = () => {
             </div>
           </div>
           <div className="scream__shope__activity">
-            <h2>Trending Shops Today!</h2>
+            <h2  onClick={() => console.log('Trending shopping product of the day') }  style={{ cursor: "pointer" }}>Trending Shops Today!</h2>
             <div className="scream__shope__list">
               <ul>
                   <li>

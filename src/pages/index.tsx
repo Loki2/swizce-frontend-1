@@ -46,7 +46,7 @@ const Start: React.FC<Props> = () => {
         <section className="home__left">
           <div className="home__left__contents">
             <div className="home__friend__stories">
-              <h2>Friends Stories</h2>
+              <h2 onClick={() => console.log('Friends stories list') }  style={{ cursor: "pointer" }}>Friends Stories</h2>
               <div className="stories__items">
                 <div className="friend__story__items">
                   <img
@@ -86,7 +86,7 @@ const Start: React.FC<Props> = () => {
               </div>
             </div>
             <div className="home__contents_body">
-              <h2>Following Users</h2>
+              <h2 onClick={() => console.log('Following and follower users') }  style={{ cursor: "pointer" }}>Following Users</h2>
               <div className="follow__users">
                 <ul>
                   <li>
@@ -187,7 +187,7 @@ const Start: React.FC<Props> = () => {
         </section>
         <section className="home__right">
           <div className="home__markets__shared">
-            <h2>Market Places</h2>
+            <h2  onClick={() => console.log('Market place list item products') }  style={{ cursor: "pointer" }}>Market Places</h2>
             <hr />
             <div className="market__place__items">
               <div className="product__item">
@@ -249,7 +249,7 @@ const Start: React.FC<Props> = () => {
             </div>
           </div>
           <div className="users__room__activity">
-            <h2>Public Rooms</h2>
+            <h2 onClick={() => console.log('Trending and public room') }  style={{ cursor: "pointer" }}>Public Rooms</h2>
             <div className="users__room__item">
               <ul>
                 <li>

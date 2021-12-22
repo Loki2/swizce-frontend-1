@@ -168,6 +168,7 @@ const Navigation: React.FC<NavigationProps> = ({ user }) => {
         <div className="navigation__link">
           <a style={{ cursor: 'pointer'}}>
             <img
+                onClick={() => router.push('/Defi')}
                 src="https://res.cloudinary.com/swizce/image/upload/v1638441232/Swizce/images/big-data_yxpu2d.png"
                 width="32px"
                 height="32px"

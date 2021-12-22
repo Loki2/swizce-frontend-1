@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 41px 240px 0 236px;
+  margin: 38px 240px 0 236px;
   // background: var(--darkgrey);
 }
 
@@ -20,19 +20,22 @@
 
 .container__top {
   margin-bottom: 25px;
+  background: var(--darkgrey);
+  border-radius: 7px;
 }
 
 .container__top h2 {
   color: var(--primary);
+  padding-left: 7px;
+  font-weight: 400;
 }
 
 .list__messenger__users {
   overflow: hidden;
-  background: var(--darkgrey);
   align-items: center;
   margin-top: 7px;
   padding: 5px;
-  border-radius: 7px;
+  
 }
 
 .list__messenger__user__item {
@@ -61,4 +64,15 @@
   width: 310px;
   // margin-top: 60px;
   // background: var(--darkgrey);
+}
+
+
+.container__right__top {
+  background: var(--darkgrey);
+  border-radius: 7px;
+  margin-bottom: 15px;
+}
+
+.container__right__top h4 {
+  color: var(--primary);
 }
